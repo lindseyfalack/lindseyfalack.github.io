@@ -3,24 +3,102 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Example</title>
-
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rokkitt" rel="stylesheet">
 
 <style media="screen">
-h1, table {
 
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rokkitt', serif;
+*/
+
+body {
+  background-image: url("images/new.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1
+{  text-align: center;
+  border-bottom: 5px dotted red;
+  padding-bottom: 15px;
+  font-family: 'Permanent Marker', cursive;
+font-size: 50px
+
+}
+h1, table {
   color: red;
 }
 
+
 a:hover {
 
-  font-weight:bold; 
+}
+p {
+  font-weight:bold;
+  font-family: 'Rokkitt';
+font-size: 30px;
+background: #FFFFFF66;
+background: rgb (255, 255, 255);
+background: rgbba (255,255,255,0.3);
+color: black;
+color: #000000;
+color: rgb (0,0,0);
+background: rgba (0,0,0,0.3);
+}
 
 
+td, th {
+  border: 3px solid red;
+}
+
+ul {
+  list-style: square outside none;
+  padding-left: 10px
+}
+ol {list-style: lower-alpha;
+
+}
+.navigation {
+  list-style: none;
+  padding-left: 0;
+  background-color: orange;
+  padding:10px;
+}
+.navigation li {
+  display:inline-block;
+  margin-left: 20px
+}
+
+.navigation a {
+  font-size: 30px;
+  color: white;
+  text-decoration:
+}
+
+.navigation a:hover {
+font-weight: normal;
+background-color: white;
+color:Orange;
+
+}
 </style>
+
+
+
+
+
+<h1>CSS   Example</h1>
+<ul class="navigation" id="">
+  <li><a href="#">Item 1</a></li>
+  <li><a href="#">Item 2</a></li>
+  <li><a href="#">Item 3</a></li>
+</ul>
+
 
   </head>
   <body>
-    <h1>CSS   Example</h1>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <br>
 <a href="#">This is a link</a>
@@ -36,8 +114,12 @@ a:hover {
       <td>Michael Smith</td>
       <td>Business</td>
 
+      <tr>
+        <td>Margie Due </td>
+        <td>Communications</td>
     </tr>
     </table>
+
 
 <ul>
   <li>Item</li>
