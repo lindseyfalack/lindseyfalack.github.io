@@ -1,0 +1,49 @@
+
+.margin10 {
+margin: 10px;
+}
+
+.largeslide {max-width: 100%}
+.smallslide {display: none;}
+
+
+body { background: #666666;}
+main {
+  display: block;
+  width: 960px;
+min-height: 100px;
+margin: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+header {
+  margin: 10px;
+  text-align: center;
+}
+section {
+  min-height: 100px;
+}
+.rightcolumn {
+  display: block;
+  min-height: 100px;
+  width: 570px;
+  float: right;
+  padding: 10px;
+
+
+}
+.leftcolumn {
+display: block;
+min-height: 100px;
+width: 300px;
+float: left;
+}
+
+.clear { clear: both;}
+
+@media (min-width: 400px)
+{
+  body {
+    background: red;
+  }
+}
