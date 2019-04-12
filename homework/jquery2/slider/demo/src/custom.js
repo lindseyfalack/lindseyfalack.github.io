@@ -30,6 +30,8 @@ $(document).ready(function(){
         sliding = true;
     });
 
+    $(".slide#fifth").backstretch("images/bg6.jpg");
+
     $(".slider").on("afterSliding", function(event){
         var prevSlide = event.prevSlide;
         var newSlide = event.newSlide;
@@ -55,6 +57,7 @@ $(document).ready(function(){
     $(".slide#sec").backstretch("images/bg2.jpg");
     $(".slide#thirth").backstretch("images/bg4.jpg");
     $(".slide#fourth").backstretch("images/bg5.jpg");
+    $(".slide#fifth").backstretch("images/bg6.jpg");
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
 
